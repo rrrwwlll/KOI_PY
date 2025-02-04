@@ -1,5 +1,5 @@
-jelly=10
-student=20
+jelly=100
+student=90
 
 while student:
     print("맛있는 젤리 당첨")
