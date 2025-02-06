@@ -1,14 +1,13 @@
+#오류(수정됨)
 N=int(input())
-answer = 0
+answer = 101
 for i in range(N):
     A,B=map(int,input().split())
-    answer = [A,B]
     if A <= B:
-        answer = min(B,answer)
-        print(answer)
-    elif A > B:
-        answer = -1
-    print(answer)
+        answer = min(answer, B)
+if answer == 101:
+    answer = -1
+print(answer)
         
         #틀린거def Q():
         #if A == B:
