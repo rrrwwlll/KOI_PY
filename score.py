@@ -1,6 +1,6 @@
 score=int(input("성적을 입력하세요."))
 if 90 <= score <= 100 :
-    print("A")
+    print("A+")
 elif 80<= score <= 89:
     print("B")
 elif 70<= score <= 79:

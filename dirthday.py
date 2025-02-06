@@ -14,7 +14,3 @@ while a < len(month):
     if a == 3:
         break
 
-for i in range (3,100) :
-    for j in range(2,100) :
-        for q in range(1,100) :
-         print(i*j*q)

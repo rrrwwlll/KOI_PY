@@ -1,6 +1,9 @@
 i = int(input("당신은 몇년도에 태어났나요?"))
+gen=None
+
 if 0 <= i <= 1924:
     print("the Greatest Generation")
+    #gen="the Greatest Generation"
 elif 1925 <= i <= 1945:
     print("the Silent Generation")
 elif 1946 <= i <= 1964:
@@ -14,5 +17,6 @@ elif 1997 <= i <= 2010:
 elif 2011 <= i <= 10000:
     print("Alpha")
 else:
-    for j in range(1,10001):
+    for j in range(1,50001):
         print("당신은 사람이 아니야!")
+#print("당신은{gen}")
