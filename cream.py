@@ -6,6 +6,8 @@ for i in range(N):
     for j in range(K):
         if a[i*K+j] == 0:
             count = count + 1
-    if P > count:
+    
+    if P > count :
         result = result + 1
+   
 print(result)
